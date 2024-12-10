@@ -1,5 +1,9 @@
 body {background-color: rgb( 44, 127, 138);
-        background-image: url(../imatges/tigershark.jfif);
+        /*background-image: url(../imatges/favicon.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-x: right;*/
+        
 }
 h1 {color: rgb( 0, 0, 255);
 
