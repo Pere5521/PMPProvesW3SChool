@@ -2,9 +2,13 @@ table {
     /*border-color: black;
     border-style: solid;
 border-collapse: collapse;*/
+height:100%;
+width:100%;
 border-width: 1px;
 color: rgb( 255, 0, 0);
 border-spacing: 0;
+/*display: flex;*/
+
 }
 
 tr { 
@@ -28,14 +32,10 @@ opacity: 0.90;
 
 
 }
-body,table{
+body{
 height:100%;
 width:100%;
 background-size: cover;
 background-repeat: no-repeat;
-/*background-repeat: repeat-x;
-background-repeat: repeat-y;*/
-}
-body{
-    background-image:url(../imatges/Skilandersfoto2.jpg);
+background-image:url(../imatges/Skilandersfoto2.jpg);
 }
