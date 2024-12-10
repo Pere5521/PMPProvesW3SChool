@@ -11,3 +11,34 @@ h1 {color: rgb( 0, 0, 255);
 p {color: rgb( 255, 0, 0);
 
 }
+table { 
+        /*border-color: black;
+        border-style: solid;
+    border-collapse: collapse;*/
+    /*height:100%;*/
+    /*width:100%;*/
+    border-width: 1px;
+    color: rgb( 255, 0, 0);
+    border-spacing: 0;
+    /*display: flex;*/
+    
+    }
+tr { 
+        border-color: black;
+        border-style: solid;
+        border-collapse: collapse;
+        border-width: 1px;
+    
+    }
+    td { 
+        border-color: black;
+        border-style: solid;
+        border-collapse: collapse;
+        border-width: 1px;
+        background-color: aliceblue;
+    }
+    /*table,td,tr{
+        
+    text-align: center;
+    opacity: 0.90;
+    }*/
