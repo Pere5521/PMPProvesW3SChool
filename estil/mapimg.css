@@ -1,0 +1,27 @@
+body{
+
+    /*background-position: center;*/
+      /*background-size: contain;*/
+      /*background-size: cover;*/
+
+      /*background-repeat: no-repeat;*/
+
+      height: 100vh;
+
+      background-image:url(../imatges/Skilandersfoto2.jpg);
+
+    background-size: cover;
+
+    background-repeat: repeat-y;
+
+    background-position: center;
+
+
+
+
+
+
+
+      color: rgb( 255, 0, 0);
+      
+      }

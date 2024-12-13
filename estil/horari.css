@@ -2,8 +2,8 @@ table {
     /*border-color: black;
     border-style: solid;
 border-collapse: collapse;*/
-height:100%;
-width:100%;
+height:50%;
+width:50%;
 border-width: 1px;
 color: rgb( 255, 0, 0);
 border-spacing: 0;
@@ -34,7 +34,13 @@ opacity: 0.90;
 }
 body{
 
-background-size: cover;
-background-repeat: no-repeat;
-background-image:url(../imatges/Skilandersfoto2.jpg);
+    height: 100vh;
+
+    background-image:url(../imatges/Skilandersfoto2.jpg);
+
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+
+    color: rgb( 255, 0, 0);
 }
