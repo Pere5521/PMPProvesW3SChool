@@ -1,23 +1,38 @@
 body{
-    /*background-position: center;*/
+
+  /*background-position: center;*/
     /*background-size: contain;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-image:url(../imatges/Skilandersfoto2.jpg);
     color: rgb( 255, 0, 0);
     }
-    ul.a {
-        list-style-type: circle;
-      }
+
+  
+
+  tr { 
+      border-color: black;
+      border-style: solid;
+      border-collapse: collapse;
+      border-width: 0px;
+  
+  }
+  td { 
+      border-color: black;
+      border-style: solid;
+      border-collapse: collapse;
+      border-width: 0px;
+      background-color: aliceblue;
+  }
+  table,td,tr{
       
-      ul.b {
-        list-style-type: square;
-      }
-      
-      ol.c {
-        list-style-type: upper-roman;
-      }
-      
-      ol.d {
-        list-style-type: lower-alpha;
-      }
+  text-align: center;
+  opacity: 0.90;
+  
+  
+  }
+table {
+  margin: auto;
+  border-spacing: 0;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
