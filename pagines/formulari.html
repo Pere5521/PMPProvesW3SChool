@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mapimg</title>
+    <title>Formulari</title>
     <link rel="shortcut icon" type="image/x-icon" href="../imatges/favicon.jpg">
+    <link rel="stylesheet" href="../estil/general.css">
     <link rel="stylesheet" href="../estil/formulari.css">
     <link rel="stylesheet" href="../estil/navbar.css">
 </head>
 
 <body>
     
-<form action="">
 
-</form>
+    <ul class="nav">
+        <li style="float:right"><a href="C:\Users\Usuari\Documents\PMPMrovesW3SChools\index.html">Index</a></li>
+        <li><a class="active" href="./horari.html">Horari</a></li>
+        <li><a href="./llistes.html">Llistes</a></li>
+        <li><a href="./mapimg.html">Mapimage</a></li>
+        <li><a href="./formulari.html">Formulari</a></li>
+    </ul>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <form action="./validacio.php" method="post">
+        <fieldset>
+            <legend>Posa la informació</legend>
+        <label for="fname">Usuari:</label><br>
+        <input type="text" id="user" name="user" value=""><br><br>
+
+        <label for="lname">Contrasenya:</label><br>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Entrar">
+    </fieldset>
+    </form>
 
 
 </body>
