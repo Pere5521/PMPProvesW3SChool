@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Form2</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imatges/favicon.jpg">
+        <link rel="stylesheet" href="../estil/general.css">
+        <link rel="stylesheet" href="../estil/navbar.css">
+    </head>
+<body>
+    
+
+    <ul class="nav">
+        <li style="float:right"><a href="../index.html">Index</a></li>
+        <li><a class="active" href="./horari.html">Horari</a></li>
+        <li><a href="./llistes.html">Llistes</a></li>
+        <li><a href="./mapimg.html">Mapimage</a></li>
+        <li><a href="./formulari.html">Formulari</a></li>
+        <li><a href="./form2.html">Formulari2</a></li>
+        <li><a href="./canvas.html">Canvas</a></li>
+        <li><a href="./eframes.html">Iframes</a></li>
+    </ul>
+<p></p>
+<canvas id="c1" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c2" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c3" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c4" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c5" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c6" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c7" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+<canvas id="c8" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+
+<script>
+    var c = document.getElementById("c1");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(200, 100);
+    ctx.stroke();
+    </script>
+</body>
+</html>

@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Formulari</title>
+    <title>Iframe</title>
     <link rel="shortcut icon" type="image/x-icon" href="../imatges/favicon.jpg">
     <link rel="stylesheet" href="../estil/general.css">
-    <link rel="stylesheet" href="../estil/formulari.css">
     <link rel="stylesheet" href="../estil/navbar.css">
-    <li><a href="./canvas.html">Canvas</a></li>
+    
 </head>
 
 <body>
@@ -26,18 +25,28 @@
         <li><a href="./eframes.html">Iframes</a></li>
     </ul>
     
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <form action="./validacio.php" method="post">
-        <fieldset>
-            <legend>Posa la informació</legend>
-        <label for="fname">Usuari:</label><br>
-        <input type="text" id="user" name="user" value=""><br><br>
 
-        <label for="lname">Contrasenya:</label><br>
-        <input type="password" id="password" name="password">
-        <input type="submit" value="Entrar">
-    </fieldset>
-    </form>
+    <br><br><br><br><br><br>
+    
+    <p>"Iframe (pàgina iessineu)"</p>
+    <iframe src="https://redols.caib.es/c07008481/" width="100%" height="400" frameborder="0" style="border:1px solid black;">
+    </iframe>
+    
+    
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <p>"Iframe amb un botó 2"</p>
+    
+    <iframe src="../imatges/lluna.webp" width="100%" height="400" style="border:1px solid black;" name="marcflotant_2">
+    </iframe>
+    <button >Mostrar index.html</button>
+    <p><a href="../index.html" target="marcflotant_2">Mostrar index.html</a></p>
+    <p>Quan cliquem a l'enllaç obrirem l'index al que s'apunta en la barra de dalt.</p>
+    
+    <br><br><br><br><br><br><br><br>
+    
 
 
 </body>

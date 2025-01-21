@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Form2</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imatges/favicon.jpg">
+        <link rel="stylesheet" href="../estil/general.css">
+        <link rel="stylesheet" href="../estil/navbar.css">
+    </head>
+<body>
+    
+
+    <ul class="nav">
+        <li style="float:right"><a href="../index.html">Index</a></li>
+        <li><a class="active" href="./horari.html">Horari</a></li>
+        <li><a href="./llistes.html">Llistes</a></li>
+        <li><a href="./mapimg.html">Mapimage</a></li>
+        <li><a href="./formulari.html">Formulari</a></li>
+        <li><a href="./form2.html">Formulari2</a></li>
+        <li><a href="./canvas.html">Canvas</a></li>
+        <li><a href="./eframes.html">Iframes</a></li>
+    </ul>
+
+
+
+    <h3> :: Formulari de registre al Portal:: </h3>
+    <form name="formulari" method="POST" action="validacio2.php">
+    <fieldset>
+    <legend>Dades personals</legend>
+    <input type="hidden" name="oculto" value="0">
+    <div>
+    <label for="inom">Nom:</label>
+    <input type="text" name="nom" id="inom" placeholder="Nom">
+    <label for="icognoms">Cognoms:</label>
+    <input type="text" name="cognoms" id="icognoms" placeholder="Cognoms">
+    </div>
+    <div>
+    <label for="idni">DNI:</label>
+    <input type="text" name="idni" placeholder="P.ex: 45987989X">
+    </div>
+    <div>
+    <label for="iusername">Username:</label>
+    <input type="text" id="iusername" name="username">
+    <label for="iclau">Clau:</label>
+    <input type="password" id="iclau" name="clau">
+    <label for="ireclau">Repetir Clau:</label>
+    <input type="password" id="ireclau" name="reclau">
+    </div>
+    <div>
+    <label for="iemail">E-Correu:</label>
+    <input type="text" name="email" id="iemail" placeholder="usuari@domini.org">
+    <label for="ifranjaedat">Franja d'edat: </label>
+    <select name="edat" id="ifranjaedat">
+    <option value="menor16">Menor que 16 anys</option>
+    <option value="menor21">Entre 16 i 21 anys</option>
+    <option value="major21">Major de 21 anys</option>
+    </select>
+     
+    </div>
+    <div>
+    Sexe:
+    <input type="radio" name="sex" id="ihome" value="home">
+    <label for="ihome">Home</label>
+    <input type="radio" name="sex" id="idona" value="dona">
+    <label for="ihome">Dona</label>
+    </div>
+    <div>
+    </div>
+    <div>
+    <label for="ipais_code">Codi País:</label>
+    <input type="text" id="ipais_code" name="pais_code" pattern="[A-Za-z]{2}" placeholder="Codi del pais dos caracters">
+    <label for="izip_code">Codi ZIP:</label>
+    <input type="text" id="izip_code" name="zip_code" pattern="[0-9]{5}" placeholder="El codi postal">
+    </div>
+    <div>
+    <label >Imatge Personal:</label>
+    <input type="file" name="imatge" id="iimatgepersonal">
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>Altres dades d'interès</legend>
+    <div>Interessos:<br>
+    <input type="checkbox" name="interessos" value="css">
+    CSS
+    <input type="checkbox" name="interessos" value="html5">
+    HTML5
+    <input type="checkbox" name="interessos" value="javascript">
+    Javascript
+    </div>
+    <div><label>Coneixements:</label><br>
+    <input type="checkbox" name="coneixaments" value="xarxessociales">
+    Xarxes Socials
+    <input type="checkbox" name="coneixaments" value="programaciohtml">
+    Programació HTML
+    <input type="checkbox" name="coneixaments" value="programacioCSS">
+    Programació CSS
+    <input type="checkbox" name="coneixaments" value="Disseny">
+    Disseny
+    </div>
+    <div>
+    <label>Comentaris:</label><br>
+    <textarea rows="10" cols="50" name="coment">Aquí disposeu d'espai per escriure</textarea>
+    </div>
+    </fieldset>
+    <div>
+    <input type="submit" value="Enviar"><input type="reset" value="Esborrar">
+    </div>
+    </form>
+
+</body>
+</html>
