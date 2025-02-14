@@ -10,7 +10,7 @@ border-spacing: 0;
 /*display: flex;*/
 
 }
-tr { 
+tr {
     border-color: black;
     border-style: solid;
     border-collapse: collapse;

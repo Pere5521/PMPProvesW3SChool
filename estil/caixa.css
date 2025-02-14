@@ -1,0 +1,58 @@
+body{
+
+    background-color: blueviolet;
+
+}
+
+
+/*header{
+
+    align-self: center;
+    text-align: center;
+margin-left: 5%;
+border-left: 5%;
+padding-left: 15%;
+width: 50%;
+margin-right: 5%;
+border-right: 5%;
+padding-right: 15%;
+
+
+
+}*/
+aside{
+
+background-color: brown;
+align-self: center;
+text-align: center;
+}
+section{
+    background-color: red;
+    align-self: center;
+    text-align: center;
+margin-left: 5%;
+/*border-left: 5%;*/
+padding-left: 15%;
+width: 50%;
+margin-right: 5%;
+/*border-right: 5%;*/
+padding-right: 15%;
+/*border-color: aqua;*/
+border: 20px solid lime;
+border-top: 10px solid grey;
+}
+-ms-section{
+    background-color: red;
+    align-self: center;
+    text-align: center;
+margin-left: 5%;
+border-left: 5%;
+padding-left: 15%;
+width: 50%;
+margin-right: 5%;
+border-right: 5%;
+padding-right: 15%;
+
+
+
+}
